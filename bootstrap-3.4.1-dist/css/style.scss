@@ -1,3 +1,6 @@
+.container {
+    margin-top: 100px;
+}
 .AA {
     background: #777f77;
     padding: 10px;
@@ -16,3 +19,182 @@
     margin-bottom: 10px;
     color: rgb(18, 63, 126);
 }
+
+
+// start navbar
+
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin: 8px;
+}
+.navbar-right {
+    width: 434px
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #df0202;
+}
+.dropdown-menu {
+    background-color: #2d2b2b;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #d2c6c6;
+	background-color: #df0202;
+    padding-left: 25px;
+
+}
+.dropdown-menu > li > a {
+    color: #d2c6c6; 
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+    transition: padding .5s ease;
+    padding: 6px 20px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #d2c6c6;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #d2c6c6;
+}
+.navbar-nav > li {
+    margin: 8px;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #d2c6c6;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    font-size: 24px;
+}
+.dropdown-menu .divider {
+    background-color: #951111;
+}
+span {
+    color: #df0202;
+    font-size: 35px;
+}
+.navbar-nav > li > .dropdown-menu {
+    left: 0%;
+    right: auto;
+    margin-top: 8px;
+    border-top: 1px solid #aa2c2c;
+}
+.navbar-toggle {
+    margin-top: 16px;
+}
+
+
+// end navbar
+// start carousel
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 100%;
+}
+// end carousel
+// start section about
+
+.about {
+   p {
+       color: #bbb;
+
+       span {
+            color: #aa2c2c;
+            font-size: 21px;
+       }
+   }
+}
+// end section about
+// start section features
+
+.features {
+    
+    .contaner {
+        background: #eee;
+        margin-top: 100px;
+
+        .row {
+            text-align: center;
+            margin-left: 220px;
+            margin-right: 220px; 
+            padding: 47px;
+
+            h2 {
+                margin-bottom: 53px;
+            }
+
+            span {
+                color: #656a65;
+                font-size: 19px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+        }
+    }
+}
+// start section testimonials
+.testimonials {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    h1 {
+        font-weight: bold;
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+    span {
+        font-size: 18px;
+        font-weight: bold;
+        color: #df0202;
+    }
+    .carousel-inner {
+        min-height: 160px;
+
+    }
+
+    .carousel-indicators {
+        position: static;
+        width: 100%;
+       padding-top: 20px;
+       margin-left: auto;
+
+        li {
+            text-indent: 0;
+            width: 80px;
+            height: 80px;
+            opacity: 0.4;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            overflow: hidden;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+
+            img {
+                max-width: 100%;
+ 
+            }
+        
+        }
+        .active {
+            opacity: 1;
+            border: 3px solid #df0202;
+            background: none;
+        }
+    } 
+}
+// end testimonials
