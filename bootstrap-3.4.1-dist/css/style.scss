@@ -1,26 +1,6 @@
-.container {
-    margin-top: 100px;
+body {
+    height: 10000px;
 }
-.AA {
-    background: #777f77;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: rgb(25, 154, 111);
-}
-.BB {
-    background: #cbcccb;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: rgb(69, 35, 173);
-}
-.CC {
-    background: #656a65;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: rgb(18, 63, 126);
-}
-
-
 // start navbar
 
 
@@ -114,15 +94,13 @@ span {
 // start section features
 
 .features {
-    
-    .contaner {
-        background: #eee;
-        margin-top: 100px;
+     background: #eee;
+     margin-top: 100px;
+
+    .container {
 
         .row {
             text-align: center;
-            margin-left: 220px;
-            margin-right: 220px; 
             padding: 47px;
 
             h2 {
@@ -137,6 +115,7 @@ span {
 
             p {
                 font-size: 15px;
+                line-height: 40px;
             }
 
         }
@@ -166,8 +145,8 @@ span {
     }
 
     .carousel-indicators {
-        position: static;
-        width: 100%;
+       position: static;
+       width: 100%;
        padding-top: 20px;
        margin-left: auto;
 
@@ -198,3 +177,255 @@ span {
     } 
 }
 // end testimonials
+// start section price-table
+.price-table {
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    .price-box {
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #ddd;
+        width: 280px;
+        margin-bottom: 10px;
+        margin: 0px auto;
+
+        h3 {
+            margin: 5px 0 15px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            color: #666;
+            background: #f3f3f3;
+            border: 2px solid #fff;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 50%;
+            -webkit-transition-duration: 0.7s;
+            -moz-transition-duration: 0.7s;
+            -o-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+
+        } 
+
+      
+
+        ul {
+            line-height: 250%;
+            font-size: 18px;
+        }
+
+        a {
+            margin-bottom: 7px;
+        }
+    }
+}
+.price-table .price-box:hover p {
+    -webkit-transform:scale(50%) rotate(360deg);
+    -moz-transform:scale(50%) rotate(360deg);
+    -o-transform:scale(50%) rotate(360deg);
+    transform:scale(50%) rotate(360deg);
+    border: 2px solid #dfdfdf;
+}
+// end section price-table
+// start section our-team
+
+.our-team {
+    background: url(images/Dark.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+
+    .team {
+        background: rgba(2,2,2,0.8);
+        min-height: 600px;
+        color: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        h1 {
+            margin-bottom: 60px;
+        }
+
+        .person {
+            margin-bottom: 60px;
+            padding: 10px;
+
+            .img-circle {
+                opacity: 0.8;
+                width: 120px;;
+            }
+        }
+    }
+}
+// end section our-team
+//  start subscribe 
+.subscribe {
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+    h1 {
+        letter-spacing: 2px;
+        color: #888;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+
+    .form-control {
+        border-radius: 0;
+        margin-right: -5px;
+        width: 400px;
+        margin-bottom: 6px;
+        height: 48px;
+    }
+
+    button {
+        border-radius: 0;
+        
+        .fa-solid {
+            padding-right: 4px;
+        }
+    }
+}
+//  end subscribe 
+// start statistics
+
+.statistics {
+    background: url(../css/images/ant.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px;
+
+    .stats {
+        background: rgba(2,2,2,0.4);
+        min-height: 450px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        color: #b6b5b5;
+
+        h1 {
+            margin-bottom: 60px;
+        }
+
+        p {
+            font-size: 40px;
+            margin-top: 17px;
+            margin-bottom: 0;
+        }
+
+        span {
+            color: #b6b5b5;
+            font-size: 15px;
+        }
+    }
+
+    .stat {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        margin-bottom: 30px;
+    }
+    .stat:hover {
+        color: #fff;
+    }
+}
+
+// end statistics
+// start section our skills
+ 
+.our-skills {
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+    h1 {
+        margin-bottom: 24px;
+    }
+
+    h3 {
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .progress {
+        height: 40px;
+
+        .progress-bar {
+            line-height: 40px;
+            text-align: left;
+            text-indent: 10px;
+            font-size: 17px;
+        }
+    }
+}
+// start contact-us
+
+.contact-us {
+    background: url(../css/images/contact.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px;
+
+    .fields {
+        background: rgba(9,9,9,0.48);
+        min-height: 450px;
+        color: rgb(195, 191, 191);
+        padding-top: 40px;
+        padding-bottom: 70px;
+
+        p {
+            margin-bottom: 40px;
+        }
+        textarea {
+                height: 106px;
+                margin-bottom: 17px
+        }
+        input[type="text"],
+        textarea {
+            color: #fff;
+            border: none;
+            background: rgba(82,78,78,0.5);
+        }
+    }
+}
+
+// end contact-us
+// start our-clients
+
+.our-clients {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(247, 247, 247);
+
+    img {
+        opacity: 0.3;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    img:hover {
+        opacity: 1;
+    }
+}
+
+// end our-clients
