@@ -1,0 +1,46 @@
+// start breadcrumb
+.breadcrumb-holder {
+    margin-top: 68px;
+    background: #f4f4f4;
+
+    .container {padding: 0 40px;
+        
+
+        .breadcrumb { margin-bottom: 5px;}
+    }
+}
+.about-us {
+    .container {
+        h1 {font-weight: bold;}
+
+        p {font-size: 20px; margin-bottom: 20px;}
+
+        img { margin-bottom: 70px; }
+    }
+}
+.about-pic {
+    background: #f7f7f7;
+
+
+    p { line-height: 35px;font-size: 19px; }
+
+    button { background: #242020; border: 2px solid #242020; }
+}
+// end breadcrumb
+// start FAQ
+
+.faq {
+    h1 { font-weight: bold;}
+    p { font-size: 15px; margin-bottom: 45px;}
+
+    .icon .fa-2x { 
+        font-size: 2em;
+        line-height: 20px;
+    }
+}
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a{float: left; line-height: 29px;}
+.panel-default > .panel-heading {padding-bottom: 30px;}
+.panel-title {
+    float: left;
+}
+// end FAQ

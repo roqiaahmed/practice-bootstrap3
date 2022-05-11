@@ -1,0 +1,25 @@
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box i,
+.dropdown-menu .divider,
+.carousel-indicators .active  {
+    background-color: #8e16fd;
+}
+
+span,
+.testimonials span.active,
+.footer h3,
+.copyright span,
+.faq .panel-group .panel .panel-heading a  {
+    color: #8e16fd;
+}
+.option-box .color-option,
+.testimonials .carousel-indicators.active {
+    border: 3px solid #8e16fd;
+}
+.navbar-nav > li > .dropdown-menu{
+    border-top: 1px solid #8e16fd;
+}
